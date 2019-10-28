@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>contact - minimal portfolio theme</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a0aa21f182.js" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
+</head>
+<body>
+    <header>
+        <h1 class="logo"><a href="">logo</a></h1>
+        <nav>
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">portfolio</a></li>
+                <li><a href="">about</a></li>
+                <li><a href="">contact</a></li>
+            </ul>
+        </nav>
+        <div class="portfolio-filters">
+            <button data-filter="*" class="secondary btn">All</button>
+            <button data-filter=".print" class="secondary btn">Print</button>
+            <button data-filter=".website" class="secondary btn">website</button>
+            <button data-filter=".mobile" class="secondary btn">mobile</button>
+          </div>
+    </header>
+    <main>
+        <div class="container shadow">
+            <div class="contact-title">
+                <h3 class="heading6">Let’s Get in Touch</h3>
+                <p class="narrow-p">You can call me, email me directly or connect with me<br/>through my social networks.
+                </p>
+                <p>(+40) 744122222<br/>
+                    <a href="mainto:park8801@gmail.com">parkhj8801@gmail.com</a>
+                </p>
+                <ul class="social-links">
+                    <li><a href="">twitter</a><i class="fab fa-twitter"></i></li>
+                    <li><a href="">facebook</a><i class="fab fa-facebook"></i></li>
+                    <li><a href="">instagram</a><i class="fab fa-instagram"></i></li>  
+                </ul>
+                <hr class="double-hr">
+            </div>    
+            <div class="contact-quote">
+                <h3 class="heading6">Need a Quote?</h3>
+                <p class="narrow-p">Use the form below. All fields are required.</p>
+                <form action="" method="post">
+                    <fieldset>
+                        <legend>estimate request</legend>
+                        <div class="request-field">
+                            <label for="clientName">Full Name:</label>
+                            <input type="text" id="clientName" class="plain-text" placeholder="Your Name">
+                        </div>
+                        <div class="request-field">
+                            <label for="clientEmail">Email Address:</label>
+                            <input type="email" id="clientEmail" class="plain-text" placeholder="Email Address">
+                        </div>
+                        <div class="request-field">
+                            <label for="clientPhone">Phone Number:</label>
+                            <input type="text" id="clientPhone" class="plain-text" placeholder="Phone Number">
+                        </div>
+                        <div class="request-field">
+                            <label for="projectType">Project Type:</label>
+                            <select name="" id="projectType">
+                                <option value="website">website</option>
+                                <option value="mobile">mobile</option>
+                                <option value="print">print</option>
+                            </select>
+                        </div>
+                        <div class="request-field">
+                            <label for="projectDesc">Project Description:</label>
+                            <textarea name="" id="projectDesc" cols="30" rows="10" placeholder="Textarea content"></textarea>
+                        </div>
+                        <div class="request-field">
+                            <label for="budget">Available Budget:</label>
+                            <input type="text" id="budget" class="numeric">
+                        </div>
+                    </fieldset>
+                    <div class="submit">
+                        <button class="primary btn">Give me a quote</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>    
+        <p class="copyright_text">&copy; Copyright 2019. Portfolio theme by Hyunju Park.</p>
+    </footer>
+</html>
+
+
+
+
+
+
+
+

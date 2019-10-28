@@ -1,0 +1,182 @@
+/* --------------- HEADER ------------------ */
+header{
+    padding:48px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 0px 5px rgba(0,0,0,.4);
+}
+header::before{
+    content: '';
+    position:absolute;
+    height: 3px;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: linear-gradient(
+        to right, #b8479a 16.6%, #2790bf 16.6% 32%, #ea8323 32% 48%,
+         #fcd715 48% 62%, #5ebb47 62% 78%, #d63431 78% 100%
+    );
+}
+header .logo{
+    margin-bottom: 48px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    margin: 0 17px;
+}
+nav ul li a{
+    font-size: 16px;
+    color: #7a7a7a;
+    text-transform: uppercase;
+}
+/* --------------- FOOTER ------------------ */
+footer .quote{
+    background: #1a2128;
+    padding: 48px 0;
+    color: #fff;
+    text-align:center;
+}
+footer .quote p{
+    margin: 24px auto;
+    color:#687078;
+}
+footer .quote a{
+    color: #e54d42;
+}
+footer .copyright > *{
+    margin-bottom: 24px;
+}
+footer .copyright{
+    padding: 48px 0 72px;
+    text-align: center;
+}
+footer .copyright .tel{
+    color:#7a7a7a;
+}
+footer .copyright .tel a{
+    color:#e54d42;
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+}
+.social-links li{
+    margin: 0 6px;
+}
+.social-links li a{
+    display: block;
+    text-indent: -9999em;
+    font-size: 0;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    background:#dcdbdb;
+    text-align: center;
+    border-radius: 50%;
+}
+.social-links li a svg{
+    text-indent: 0;
+    font-size: 26px;
+    vertical-align: middle;
+    color: #ffffff;
+}
+.copyright_text{
+    color: #7a7a7a;
+    font-size: 16px;
+}
+
+
+/* --------------- INDEX ------------------ */
+main{
+    background: url(../images/content_bg.png);
+    padding: 48px 0;
+}
+.portfolio .content{
+    padding: 3px;
+    height: 209px;
+}
+.portfolio li img{
+    width: 100%;
+    height: auto;
+}
+.latest li:nth-child(-n+3) .content{
+    background:#1a2128;
+    background-clip: content-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.latest li:nth-child(1) .content h2{
+    color: #fff;
+}
+.latest li:nth-child(2) .content h2{
+    color: #2eb4e8;
+}
+.latest li:nth-child(3) .content h2{
+    color: #a6c63a;
+}
+.portfolio li{
+    margin-bottom: 24px;
+}
+.portfolio li .content{
+    position: relative;
+}
+.portfolio li .content .hover_contents{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    opacity: 0;
+    transition: 0.4s opacity;
+}
+.portfolio li .content .hover_contents .desc{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 77px;
+    text-align: right;
+}
+.portfolio li .content .hover_contents .desc .h3{
+    color: #2b2b2b;
+    font-weight: 300;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 16px;
+}
+.portfolio li .content .hover_contents .desc a{
+    color:#7a7a7a;
+    font-style: italic;
+}
+.portfolio li .content .hover_contents .arrow{
+    position: absolute;
+    top: 3px;
+    right: -30px;
+    color: #d92328;
+}
+.portfolio li:hover .hover_contents{
+    opacity: 1;
+}
+.latest_portfolio {
+    text-align:center;
+    margin-top: 24px;
+}
+
+/* --------------- PORTFOLIO ----------------- */
+
+
+/* --------------- SINGLE -------------------- */
+
+
+/* --------------- ABOUT -------------------- */
+
+
+/* --------------- CONTACT ------------------ */
+
+
