@@ -19,7 +19,7 @@
     <script src="./js/main.js"></script>
 </head>
 <body>
-    <header>
+    <header class="sub-portfolio">
         <h1 class="logo"><a href="">logo</a></h1>
         <nav>
             <ul>
@@ -37,22 +37,26 @@
     <main>
         <div class="container">
             <div class="row">
-                <div class="col-md-8">
-                    <figure class="project-image shadow">
-                        <img src="./images/project_image_01.jpg" alt="project image1">
-                        <figcaption>
-                            <p>image description</p>
-                        </figcaption> 
-                    </figure><!-- //project-images -->
-                    <figure class="project-image shadow">
-                        <img src="./images/project_image_02.jpg" alt="project image2">
-                        <figcaption>
-                            <p>image description</p>
-                        </figcaption> 
-                    </figure><!-- //project-images -->        
+                <div class="col-md-8 portfolio-single">
+                    <div class="content shadow">
+                        <figure class="project-image">
+                            <img src="./images/project_image_01.jpg" alt="project image1">
+                            <figcaption>
+                                <p>image description</p>
+                            </figcaption> 
+                        </figure><!-- //project-images -->
+                    </div>
+                    <div class="content shadow">
+                        <figure class="project-image">
+                            <img src="./images/project_image_02.jpg" alt="project image2">
+                            <figcaption>
+                                <p>image description</p>
+                            </figcaption> 
+                        </figure><!-- //project-images -->
+                    </div>                    
                 </div>
                 <div class="col-md-4">
-                    <div class="project-info shadow">
+                    <div class="project-info content shadow">
                         <h2 class="heading4">Project title</h2>
                         <div class="brief-info">
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p> 
@@ -132,9 +136,9 @@
                 <a href="mainto:hello@adipurdila.com">hello@adipurdila.com</a>
             </p>
             <ul class="social-links">
-                <li><a href="">twitter</a><i class="fab fa-twitter"></i></li>
-                <li><a href="">facebook</a><i class="fab fa-facebook"></i></li>
-                <li><a href="">instagram</a><i class="fab fa-instagram"></i></li>  
+                <li><a href="">twitter<i class="fab fa-twitter"></i></a></li>
+                <li><a href="">facebook<i class="fab fa-facebook"></i></a></li>
+                <li><a href="">instagram<i class="fab fa-instagram"></i></a></li>  
             </ul>
             <hr/>
             <p class="copyright_text">&copy; Copyright 2019. Portfolio theme by Hyunju Park.</p>

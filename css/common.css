@@ -137,6 +137,7 @@ legend{
     border: none;
     color: #7a7a7a;
     font-weight: 300;
+    height: 198px;
 }
 .request-field select{
     height: 54px;
@@ -155,7 +156,7 @@ legend{
 }
 .narrow-p{
     width: 370px;
-    margin: 0 auto;
+    margin: 0 auto 24px;
 }
 .shadow {
     border:1px solid #dcdbdb;
@@ -169,8 +170,21 @@ hr{
     background: linear-gradient(to right, rgba(203,203,203,0),
     rgba(203,203,203,1),rgba(203,203,203,0));
 } 
-
-
-
-
+.content{
+    padding:3px;
+    background: #fff;
+}
+.double-hr {
+    width: 120px;
+    margin: 24px auto;
+    background: none;
+    border-top: 1px solid #dcdbdb;
+    border-bottom: 1px solid #dcdbdb;
+    height: 5px;
+}
+.text-center{
+    width: 370px;
+    margin: 0 auto;
+    text-align: center;
+}
 

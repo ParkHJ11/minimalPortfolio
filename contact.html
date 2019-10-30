@@ -28,69 +28,65 @@
                 <li><a href="">contact</a></li>
             </ul>
         </nav>
-        <div class="portfolio-filters">
-            <button data-filter="*" class="secondary btn">All</button>
-            <button data-filter=".print" class="secondary btn">Print</button>
-            <button data-filter=".website" class="secondary btn">website</button>
-            <button data-filter=".mobile" class="secondary btn">mobile</button>
-          </div>
     </header>
-    <main>
-        <div class="container shadow">
-            <div class="contact-title">
-                <h3 class="heading6">Let’s Get in Touch</h3>
-                <p class="narrow-p">You can call me, email me directly or connect with me<br/>through my social networks.
-                </p>
-                <p>(+40) 744122222<br/>
-                    <a href="mainto:park8801@gmail.com">parkhj8801@gmail.com</a>
-                </p>
-                <ul class="social-links">
-                    <li><a href="">twitter</a><i class="fab fa-twitter"></i></li>
-                    <li><a href="">facebook</a><i class="fab fa-facebook"></i></li>
-                    <li><a href="">instagram</a><i class="fab fa-instagram"></i></li>  
-                </ul>
-                <hr class="double-hr">
-            </div>    
-            <div class="contact-quote">
-                <h3 class="heading6">Need a Quote?</h3>
-                <p class="narrow-p">Use the form below. All fields are required.</p>
-                <form action="" method="post">
-                    <fieldset>
-                        <legend>estimate request</legend>
-                        <div class="request-field">
-                            <label for="clientName">Full Name:</label>
-                            <input type="text" id="clientName" class="plain-text" placeholder="Your Name">
+    <main class="subpage">
+        <div class="container content shadow">
+            <div class="text-center">
+                <div class="contact-title">
+                    <h3 class="heading6">Let’s Get in Touch</h3>
+                    <p class="narrow-p">You can call me, email me directly or connect with me<br/>through my social networks.
+                    </p>
+                    <p class="tel">(+40) 744122222<br/>
+                        <a href="mainto:park8801@gmail.com" class="e-mail">parkhj8801@gmail.com</a>
+                    </p>
+                    <ul class="social-links">
+                        <li><a href="">twitter<i class="fab fa-twitter"></i></a></li>
+                        <li><a href="">facebook<i class="fab fa-facebook"></i></a></li>
+                        <li><a href="">instagram<i class="fab fa-instagram"></i></a></li>  
+                    </ul>
+                    <hr class="double-hr">
+                </div><!-- //contact-title -->    
+                <div class="contact-quote">
+                    <h3 class="heading6">Need a Quote?</h3>
+                    <p class="narrow-p">Use the form below. All fields are required.</p>
+                    <form action="" method="post">
+                        <fieldset>
+                            <legend>estimate request</legend>
+                            <div class="request-field">
+                                <label for="clientName">Full Name:</label>
+                                <input type="text" id="clientName" class="plain-text" placeholder="Your Name">
+                            </div>
+                            <div class="request-field">
+                                <label for="clientEmail">Email Address:</label>
+                                <input type="email" id="clientEmail" class="plain-text" placeholder="Email Address">
+                            </div>
+                            <div class="request-field">
+                                <label for="clientPhone">Phone Number:</label>
+                                <input type="text" id="clientPhone" class="plain-text" placeholder="Phone Number">
+                            </div>
+                            <div class="request-field">
+                                <label for="projectType">Project Type:</label>
+                                <select name="" id="projectType">
+                                    <option value="website">website</option>
+                                    <option value="mobile">mobile</option>
+                                    <option value="print">print</option>
+                                </select>
+                            </div>
+                            <div class="request-field">
+                                <label for="projectDesc">Project Description:</label>
+                                <textarea name="" id="projectDesc" cols="30" rows="10" placeholder="Textarea content"></textarea>
+                            </div>
+                            <div class="request-field">
+                                <label for="budget">Available Budget:</label>
+                                <input type="text" id="budget" class="numeric">
+                            </div>
+                        </fieldset>
+                        <div class="submit">
+                            <button class="primary btn">Give me a quote</button>
                         </div>
-                        <div class="request-field">
-                            <label for="clientEmail">Email Address:</label>
-                            <input type="email" id="clientEmail" class="plain-text" placeholder="Email Address">
-                        </div>
-                        <div class="request-field">
-                            <label for="clientPhone">Phone Number:</label>
-                            <input type="text" id="clientPhone" class="plain-text" placeholder="Phone Number">
-                        </div>
-                        <div class="request-field">
-                            <label for="projectType">Project Type:</label>
-                            <select name="" id="projectType">
-                                <option value="website">website</option>
-                                <option value="mobile">mobile</option>
-                                <option value="print">print</option>
-                            </select>
-                        </div>
-                        <div class="request-field">
-                            <label for="projectDesc">Project Description:</label>
-                            <textarea name="" id="projectDesc" cols="30" rows="10" placeholder="Textarea content"></textarea>
-                        </div>
-                        <div class="request-field">
-                            <label for="budget">Available Budget:</label>
-                            <input type="text" id="budget" class="numeric">
-                        </div>
-                    </fieldset>
-                    <div class="submit">
-                        <button class="primary btn">Give me a quote</button>
-                    </div>
-                </form>
-            </div>
+                    </form>
+                </div><!-- //contact-quote -->
+            </div><!-- //text-center -->            
         </div>
     </main>
     <footer>    
